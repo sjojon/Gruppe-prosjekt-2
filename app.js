@@ -8,17 +8,17 @@ function updateView() {
 	<div class="game-screen">
         <div class="tamagotchi">
             <div class="hp">
-                <p>Sleep: <span id="sleep-hp">100</span></p>
+                <p>Sleep: <span id="sleep-hp">100</span>%</p>
                 <div class="container">
                     <div id="sleepDiv"></div>
                 </div>
                 
-				<p>Hunger: <span id="hunger-hp">100</span></p>
+				<p>Hunger: <span id="hunger-hp">100</span>%</p>
                 <div class="container">
                     <div id="feedDiv"></div>
                 </div>
                 
-				<p>Play: <span id="play-hp">100</span></p>
+				<p>Play: <span id="play-hp">100</span>%</p>
                 <div class="container">
                     <div id="playDiv"></div>
                 </div>
@@ -59,7 +59,7 @@ function bar1() {
 			width--;
 			sleep--;
 			element.style.width = width + '%';
-			sleepHp.innerHTML = sleep + '%';
+			sleepHp.innerHTML = sleep;
 		}
 	}
 }
@@ -77,7 +77,7 @@ function bar2() {
 			width--;
 			hunger--;
 			element.style.width = width + '%';
-			hungerHp.innerHTML = hunger + '%';
+			hungerHp.innerHTML = hunger;
 		}
 	}
 }
@@ -95,7 +95,7 @@ function bar3() {
 			width--;
 			play--;
 			element.style.width = width + '%';
-			playHp.innerHTML = play + '%';
+			playHp.innerHTML = play;
 		}
 	}
 }
