@@ -1,0 +1,115 @@
+
+/*GAME SCREEN*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(47, 0, 255) , rgb(0, 204, 255));
+}
+
+
+.tamagotchi {
+    top: 50vh;
+    transform: translateY(-50%);
+    font-size: 80px;
+    text-align: center;
+  }
+  
+  .hp {
+    color: white;
+    font-family: 'DM Mono', monospace;
+    font-weight: 300;
+    font-size: 30px;
+    /* width: 100%; */
+    text-align: center;
+  }
+  
+  .hp span {
+    font-weight: 500;
+  }
+  
+  .hp p {
+    display: inline;
+  }
+  
+
+  
+    .hp p {
+      font-size: 20px;
+      display: block;
+    }
+
+    #name {
+      font-size: 20px;
+    }
+    #t-body {
+      font-size: 40px;
+    }
+  
+  
+ 
+    .hp p {
+      font-size: 20px;
+      display: block;
+    }
+    #name {
+      font-size: 20px;
+    }
+    #t-body {
+      font-size: 30px;
+    }
+    .tamagotchi {
+      top: 120px;
+      transform: translateY(0);
+    }
+
+   .button{
+    color: #FFF;
+    font-size: 25px;
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 10px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; text-decoration: none; 
+    font-style: normal; font-variant: normal; 
+    text-transform: none;
+    background-color: #333;
+    text-shadow: #FFF 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;
+    }
+
+    .startGame{
+    color: rgb(255, 255, 255); 
+    font-size: 25px; 
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 10px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; text-decoration: none; 
+    font-style: normal; font-variant: normal; 
+    text-transform: none;
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+
+    .startGame{
+        background: #1C6EA4; }
+    .startGame{
+        background: #144E75;}
+
+        .container {
+          border: 1px solid black;
+          height: 20px;
+          width: 500px;
+      }
+      
+      #playDiv, #feedDiv,#sleepDiv {
+          /* height: inherit;
+          background-color: blue;
+          width: 0px; */
+          width: 1%;
+        height: 20px;
+        background: linear-gradient(217deg, rgba(9, 255, 0, 0.8), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(214, 6, 6, 0.8), rgba(0,255,0,0) 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+        box-shadow:0 0 5px rgb(116, 231, 21);
+      }
